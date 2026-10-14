@@ -7,11 +7,17 @@ public class Sample {
 		}
 		
 
+		
+		public void m3() {
+			System.out.println("kirba");
+		}
+
 		public void m2() {
 			System.out.println("vamshi");
 		}
 		public void m1() {
 			System.out.println("Mani");
+
 
 		}
 			public static void main(String[] args) {
@@ -21,6 +27,7 @@ public class Sample {
 				s.m2();
 
 				s.m1();
+				s.m3();
 
 			}
 	}
